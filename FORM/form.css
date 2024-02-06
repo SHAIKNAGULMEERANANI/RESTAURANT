@@ -82,3 +82,18 @@
         background-color: cyan;
     }
 }
+
+@media only screen and (max-width:400px){
+    #Labels{
+        width: fit-content;
+        /* height: fit-content; */
+    }
+
+    .InputFeild{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .InputFeild textarea{
+        width: 45vw;
+    }
+}
