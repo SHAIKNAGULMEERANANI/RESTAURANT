@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 50px;
+
+}
+
+#Logo{
+    font-size: x-large;
+}
+#NavBtns a{
+    text-decoration: none;
+}
+
+#NavSubBtns{
+    padding: 5px 10px 5px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        border-bottom: 2px solid red;
+    }
+}
+
+#NavMainSubBtn{
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    &:hover{
+        color: white;
+    }
+}
+
+#section1{
+    width: 100%;
+    height: 80vh;
+    padding: 50px;
+    background-color:rgba(220, 220, 220, 0.897);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#section1Card1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#Title{
+    width: 35vw;
+    height: 5vh;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+#Mtr{
+    width: 30vw;
+    font-size: small;
+    font-family: sans-serif;
+
+}
+span{
+    color: rgb(243, 79, 79);
+}
+#Mtr #bold{
+    font-size: large;
+    font-family: cursive;
+}
+
+#sectionBtns{
+    margin-bottom: 50px;
+}
+
+#NavMainBtn2{
+    padding: 20px 30px 20px 30px;
+    background-color: red;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    &:hover{
+        color: white;
+    }
+}
+
+#WatchBtn{
+    padding: 20px 30px 20px 30px;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+}
+
+#Image{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+}
+
+#Image img{
+    width: 40vw;
+    height: 40vh;
+    box-shadow: 10px  15px 40px;
+    border-radius: 15px;
+}
+
+
+#section2{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+#about{
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  system-ui;
+
+}
+
+#about h3{
+    border-bottom: 1px solid orangered;
+}
+
+#detail{
+    width: 100%;
+    padding: 35px 0px 70px 0px ;
+    height: 5vh;
+    font-size: large ;
+    font-family:  system-ui;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3{
+width: 100%;
+display: flex;
+justify-content: space-around;
+padding: 20px;
+flex-wrap: wrap;
+}
+
+#section3 #Image{
+    height: 68vh;
+}
+#section3 #Image img{
+    width: 30vw;
+    height: 60vh;
+
+}
+
+#Mtr2{
+    width: 40vw;
+    font-size: medium;
+    line-height: 22px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 35px 50px;
+    border:1PX solid grey;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 405px) {
+    #navbar{
+       display: none;
+    }
+
+  #section1{
+    height: 100vh;
+  }
+
+    #Title{
+        font-size: 30px;
+        width: 100%;
+        height: 10vh;
+    }
+
+    #Mtr{
+        font-size: small;
+        width: 100%;
+        margin-top: 20px;
+    }
+  #sectionBtns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    align-items: center;
+    gap: 20px;
+  }
+   #NavMainBtn2{
+    margin-right: 0px;
+    padding: 15px 20px 15px 20px;
+
+  }
+
+  #WatchBtn{
+    padding: 15px 20px 15px 20px;
+  }
+
+  #Image{
+    height: fit-content;
+  }
+
+  #Image img{
+    width: 50vw;
+    height: 30vh;
+    box-shadow: 10px  10px 30px;
+    border-radius: 15px;
+}
+
+
+#detail{
+    padding: 35px 30px;
+}
+
+
+#section3 #Image{
+    height: fit-content;
+}
+
+#section3 #Image img{
+    width: 60vw;
+    height: 300px;
+    
+  
+}
+
+#Mtr2{
+    width: 80vw;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+}
